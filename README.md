@@ -1,8 +1,8 @@
 # Cowin-Vaccine-tracker-Watsapp-notification
-Watsapp notification
-pip install pymagic
-pip install twilio
-Actiavet Twilio Account\n
-run run.bat\n
-or python cowinin_notifier.py
+<h1>Watsapp notification<h1><br/>
+pip install pymagic<br/>
+pip install twilio<br/>
+Actiavet Twilio Account<br/>
+run run.bat<br/>
+or python cowinin_notifier.py<br/>
 
