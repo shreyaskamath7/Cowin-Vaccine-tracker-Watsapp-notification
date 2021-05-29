@@ -58,7 +58,7 @@ while True:
                         for center in response_json["centers"]:
                             for session in center["sessions"]:
                                 if (session["min_age_limit"] <= age and session["available_capacity_dose1"] >0  ) :
-                                    print("heres"+session["available_capacity_dose1"])
+                                    print("heres"+str(session["available_capacity_dose1"]))
                                     body="Vaccine available\n"
                                     body+="Pincode: " + str(pincode)+"\nAvailable on: {}".format(given_date)+"\n"+center["name"]+"\n"+center["block_name"]+"\n Price: "+center["fee_type"]+"\n Availablity : "+str( session["available_capacity"]+session["available_capacity_dose1"] )
                                     print('Pincode: ' + str(pincode))
