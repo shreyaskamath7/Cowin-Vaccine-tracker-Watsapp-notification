@@ -9,7 +9,7 @@ import time
 import json
 
 # client credentials are read from TWILIO_ACCOUNT_SID and AUTH_TOKEN
-client = Client("ACb6b2b347c412cfe076b48ea33addb06e","5541a1af4670620f6dd62bfd7f09ed0e")
+client = Client("ACb6b2b347c412cfe076b48ea33addb06e","5xxx")
 
 # this is the Twilio sandbox testing number
 from_whatsapp_number='whatsapp:+14155238886'
